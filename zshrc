@@ -39,3 +39,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Load rbenv ruby version selector
 # https://github.com/rbenv/rbenv#homebrew-on-macos
 eval "$(rbenv init -)"
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"

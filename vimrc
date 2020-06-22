@@ -22,7 +22,7 @@ set ai
 set nocompatible
 
 " turn on the "visual bell" - which is much quieter than the "audio blink"
-set vb
+set vb t_vb=.
 
 " automatically show matching brackets. works like it does in bbedit.
 set showmatch

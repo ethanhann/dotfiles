@@ -1,8 +1,8 @@
 [user]
-	name = Matthew McCullough
-	email = matthew@mccullough.io
-	username = matthewmccullough
-	signingkey = FC9C6E47
+	name = Ethan Hann
+	email = ethanhann@gmail.com
+	username = ethanhann
+	signingkey = unknown
 
 [color]
 # ui = true is a superset of all the more specific color options
@@ -215,20 +215,20 @@
 	insteadOf = "ghg://"
 	pushInsteadOf = "ghg://"
 	# Example: git clone ghg://ntschutta/emacs
-[url "git://github.com/matthewmccullough/"]
+[url "git://github.com/ethanhann/"]
     insteadOf = "ghgm://"
     pushInsteadOf = "ghgm://"
     # Example: git clone ghgm://hellogitworld
 [url "git@github.com:"]
 	insteadOf = "ghs://"
 	pushInsteadOf = "ghs://"
-[url "git@github.com:matthewmccullough/"]
+[url "git@github.com:ethanhann/"]
 	insteadOf = "ghsm://"
 	pushInsteadOf = "ghsm://"
 [url "https://github.com/"]
 	insteadOf = "ghh://"
 	pushInsteadOf = "ghh://"
-[url "https://github.com/matthewmccullough/"]
+[url "https://github.com/ethanhann/"]
 	insteadOf = "ghhm://"
 	pushInsteadOf = "ghhm://"
 
@@ -264,12 +264,12 @@
 [gh]
 protocol = https
 #[github]
-#	user = matthewmccullough
+#	user = ethanhann
 #[credential]
 #	helper = osxkeychain
 
 [github]
-	user = matthewmccullough
+	user = ethanhann
 
 [credential]
 	helper = osxkeychain
@@ -280,4 +280,4 @@ protocol = https
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 [ghi]
-	token = !security find-internet-password -a matthewmccullough -s github.com -l 'ghi token' -w
+	token = !security find-internet-password -a ethanhann -s github.com -l 'ghi token' -w

@@ -37,7 +37,7 @@ function work.teachgit() {
 
 	open "https://github.com/github/teach.github.com"
 	open "https://github.com/training/free"
-	open "https://github.com/matthewmccullough/dotfiles"
+	open "https://github.com/ethanhann/dotfiles"
 
 	open "~/Documents/Temp/Scratch"
     iterm "~/Documents/Temp/Scratch" "Scratch" "black"

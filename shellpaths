@@ -39,3 +39,8 @@ export PATH=$PATH:~/.cabal/bin
 
 # Node JS Packages (from Brew Install of Node and NPM)
 PATH=$PATH:/usr/local/share/npm/bin
+
+
+export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+
